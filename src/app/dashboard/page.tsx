@@ -99,9 +99,12 @@ export default function DashboardPage() {
                             </div>
                             <h3 className="text-lg font-bold text-gray-800">Application Status</h3>
                         </div>
-                        <p className="text-gray-600 mb-3">Your application is in progress</p>
-                        <button className="w-full bg-[#e67e22] hover:bg-[#d35400] text-white py-2 rounded-lg font-semibold transition-colors">
-                            View Application
+                        <p className="text-gray-600 mb-3">Download your application form</p>
+                        <button
+                            onClick={handleDownloadAdmitCard}
+                            className="w-full bg-[#e67e22] hover:bg-[#d35400] text-white py-2 rounded-lg font-semibold transition-colors"
+                        >
+                            Download Application
                         </button>
                     </div>
 
@@ -115,12 +118,9 @@ export default function DashboardPage() {
                             </div>
                             <h3 className="text-lg font-bold text-gray-800">Admit Card</h3>
                         </div>
-                        <p className="text-gray-600 mb-3">Click below to download your admit card</p>
-                        <button
-                            onClick={handleDownloadAdmitCard}
-                            className="w-full bg-[#e67e22] hover:bg-[#d35400] text-white py-2 rounded-lg font-semibold transition-colors"
-                        >
-                            Download Admit Card
+                        <p className="text-gray-600 mb-3">Available from 15 July 2026</p>
+                        <button className="w-full bg-gray-300 text-gray-600 py-2 rounded-lg font-semibold cursor-not-allowed">
+                            Not Available Yet
                         </button>
                     </div>
 
