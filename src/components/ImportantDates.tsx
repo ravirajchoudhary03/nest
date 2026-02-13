@@ -54,7 +54,7 @@ export default function ImportantDates() {
     },
     {
       title: "Download of Admit Card",
-      date: "15 May 2026",
+      date: "15 February 2026",
       time: "(10 am)",
       icon: (
         <svg className="w-10 h-10 text-[#00bcd4]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
