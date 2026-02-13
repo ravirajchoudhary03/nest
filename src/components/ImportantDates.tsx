@@ -13,7 +13,7 @@ export default function ImportantDates() {
     },
     {
       title: "Online Application Closes",
-      date: "06 April 2026",
+      date: "06 February 2026",
       time: "(11:30 pm)",
       icon: (
         <svg className="w-10 h-10 text-[#00bcd4]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -28,9 +28,9 @@ export default function ImportantDates() {
     },
     {
       title: "Correction & Update window",
-      date: "13 April 2026",
-      time: "(10 am)",
-      subtitle: "Until 14 April (10 am)",
+      date: "03 February 2026",
+      time: "",
+      subtitle: "Until 05 February 2026",
       icon: (
         <svg className="w-10 h-10 text-[#00bcd4]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
           <path d="M12 3C7 3 3 7 3 12h3l-4 4-4-4h3c0-6 5-11 11-11z" />
@@ -65,7 +65,7 @@ export default function ImportantDates() {
     },
     {
       title: "Date of Examination",
-      date: "06 June 2026, Saturday",
+      date: "28 February 2026",
       time: "(2 pm)",
       icon: (
         <svg className="w-10 h-10 text-[#00bcd4]" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
